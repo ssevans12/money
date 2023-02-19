@@ -8,7 +8,8 @@
     <title>Make Money!</title>
 </head>
 <body>
-   <form id="money-form">
+   <div class="main-container">
+    <form id="money-form">
         <label for="how-many">How Many?</label>
         <input type="number" id="how-many" name="how-many"
        min="1" max="100"> <br>
@@ -23,18 +24,25 @@
             </select> <br>
                 <button>Make Money!</button>
                <!--Not showing up in css, not sure if nested wrong, or not properly used. Move outside of form?-->
+               <!--Ok, it is showing up now. Not sure if real error or if I jumped the gun. Does whole thing need to be wrapped in DIV?-->
+               <!--css worked sorta, but dime and quart ended up on same line, same w/ penny/nickle. Margins are not working. Does this need to be outside form?-->
                 <div class="coins">
-                    <div class="coin-penny">Penny
-                        <div class="coin-nickle">Nickle
-                            <div class="coin-dime">Dime
-                                <div class="coin-quart">Quarter
+                    <div class="coin-penny">
+                        <p>Penny</p> <br>
+                        <div class="coin-nickle">
+                            <p>Nickle</p> <br>
+                            <div class="coin-dime">
+                                <p>Dime</p><br>
+                                <div class="coin-quart">
+                                    <p>Quarter</p><br>
 
-                                </div>
+                                </div> 
 
-                            </div>
+                            </div> 
                         </div>
-                    </div>
-                </div>
+                        </div> 
+                    </div> 
    </form> 
+</div>
 </body>
 </html>
