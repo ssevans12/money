@@ -27,6 +27,7 @@
                <!--Ok, it is showing up now. Not sure if real error or if I jumped the gun. Does whole thing need to be wrapped in DIV?-->
                <!--css worked sorta, but dime and quart ended up on same line, same w/ penny/nickle. Margins are not working. Does this need to be outside form?-->
                <!--thinking this has something to do with Flex-->
+               <!--resolved. divs were nested, should have been closed in same line-->
                 <div class="coins">
                     <div class="coin-penny">
                         <p>Penny</p> </div>
@@ -36,6 +37,7 @@
                                 <p>Dime</p> </div>
                                 <div class="coin-quart">
                                     <p>Quarter</p> </div>
+                </div>
 
    </form> 
 </div>
