@@ -1,5 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 button{
-    background-color: aquamarine;
-    padding: 5px;
+    background-color: turquoise;
+    margin-left: 20px;
+    margin-bottom: 20px;
 
 }
+
+select{
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+input{
+    margin-left: 28px;
+
+}
+
+
