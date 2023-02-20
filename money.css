@@ -8,6 +8,7 @@ body, select, button {
 }
 
 body{
+    width: 100vw;
     height: 100vh;
     font-size: 16pt;
 }
@@ -23,8 +24,6 @@ button{
     border: 5px outset turquoise;
     font-size: 20px;
     padding: 5px 10px
-   
-    
 
 }
 
