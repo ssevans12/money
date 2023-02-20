@@ -18,12 +18,12 @@
             <select name="which-coin" id="which-coin">
                 <option value=""></option>
                 <option value="penny">Penny</option>
-                <option value="nickle">Nickle</option>
+                <option value="nickel">Nickel</option>
                 <option value="dime">Dime</option>
                 <option value="quarter">Quarter</option>
             </select> 
             <br> <br>
-                <button>Make Money!</button> <br> <br>
+                <button type="button" id="money-button"> Make Money!</button> <br> <br>
                <!--Not showing up in css, not sure if nested wrong, or not properly used. Move outside of form?-->
                <!--Ok, it is showing up now. Not sure if real error or if I jumped the gun. Does whole thing need to be wrapped in DIV?-->
                <!--css worked sorta, but dime and quart ended up on same line, same w/ penny/nickle. Margins are not working. Does this need to be outside form?-->
@@ -31,7 +31,7 @@
                <!--resolved. divs were nested, should have been closed in same line-->
                 
    </form> 
-         <div class="coins">
+         <div id="coins">
            
            
             <!--<div class="coin-penny">
@@ -44,5 +44,6 @@
                 <p>Quarter</p> </div> -->
 </div>
 </div>
+<script src="./money.js"></script>
 </body>
 </html>
