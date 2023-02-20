@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body, select, button {
+    font-weight: bold;
+}
+
 body{
     height: 100vh;
     font-size: 16pt;
@@ -17,7 +21,7 @@ button{
     background-color: turquoise;
     margin-left: 20px;
     border: 5px outset turquoise;
-    font-size: 16px;
+    font-size: 20px;
     padding: 5px 10px
    
     
@@ -50,6 +54,7 @@ input{
     text-align: center;
     margin-right: 10px;
     cursor: pointer;
+    padding: 10px;
 }
 
 .penny {
